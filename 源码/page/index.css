@@ -1,0 +1,21 @@
+.page-wrapper > *{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.page-wrapper li {
+    float: left;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    margin: 0 5px;
+    cursor: pointer;
+}
+.page-wrapper span {
+    float: left;
+}
+.page-wrapper li.active {
+    background-color: #428bca;
+    border: 1px solid #428bca;
+    color: #fff;
+}
